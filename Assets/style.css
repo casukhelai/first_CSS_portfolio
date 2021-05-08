@@ -1,0 +1,113 @@
+/* Stylize header, h1 and nav links */
+* {
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body{
+    background-color: black;
+}
+
+.header {
+    height: 100px;
+    
+    background-color: black;
+    
+    
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 60px;
+    color: whitesmoke;
+
+}
+
+.header nav {
+    text-align: center;
+    padding: 15px;
+    margin-left: 50px;
+    font-size: 20px;
+    float: right;
+    text-decoration: underline;
+    background-color: black;
+    
+}
+
+.header nav u1 {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    color: white;
+   
+}
+
+.header nav u1 li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.light{
+    height: 350px;
+    width: 100%;
+    /* margin-bottom: 25px; */
+    background-image: url("../files/colorful-blurred-lights-website-header.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.content{
+    margin: 50px;
+    
+}
+
+/* Problem with the paragraph text...it is not taking up the line */
+.subhead{ 
+    display: inline-block;
+    margin-top: 0px;
+    height: 100px;
+    /* if text isn't wrapping around or taking full line, adjust the width */
+    margin-left: 50px;
+    padding: 50px;
+    font-size: 48px;
+    color: white;
+    
+} 
+
+
+
+/* Want paragraph to be on same line as header */
+.p {
+    display: inline-block;
+    /* if text isn't wrapping around or taking full line, adjust the width */
+    width: 900px;
+    margin-left: 400px;
+    font-size: 16px;
+    color: white;
+}
+
+.my-work{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 150px;
+    color: white;
+}   
+
+.contact{
+    margin-left: 450px;
+    margin-bottom: 200px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+    
+/* Don't forget to make the page responsive!!  */
+    
+@media only screen and (max-width: 600px) {
+    body {
+        
+    }
+  }
